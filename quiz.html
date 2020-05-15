@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Harus Selesai</title>
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i|Yeseva+One&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" type="text/css" href="css/style.css">	
+	<link rel="stylesheet" type="text/css" href="css/bulma.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+	<section class="hero is-small dark">
+		<div class="hero-head m-t-lg">
+			<div class="container">
+				<nav class="navbar is-spaced">
+				<img src="img/logo.png" class="navbar-item m-r-xs">
+					<div class="navbar-brand has-text-weight-semibold">
+						<a href="" class="brand navbar-item">Multimedia</a>
+						<span class="navbar-burger burger">
+							<span></span>
+							<span></span>
+							<span></span>
+						</span>
+					</div>
+					<div id="navbarMenu" class="navbar-menu">
+						<div class="navbar-end">
+							<a href="index.html" class="navbar-item nav is-capitalized">Home</a>
+							<a href="quiz.html" class="navbar-item nav is-capitalized">Quiz</a>
+							<a href="pustaka.html" class="navbar-item nav is-capitalized">Daftar pustaka</a>
+						</div>
+					</div>
+				</nav>					
+			</div>
+		</div>	
+		<div class="hero-body">
+			<div class="container">
+				<div class="m-t-lg column is-10 is-offset-1">
+					<h1 class="display has-text-centered">Quiz</h1>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="container">
+			<div class="column m-l-xl m-r-xl">
+				<div class="columns">
+					<div class="column"><hr class="silver-hr"></div>
+				</div>
+				<div class="columns">
+					<div class="column is-12">
+						<div class="content ask">
+							<div id="kuisContainer" class="container">
+								<div id="question" class="question sosmed-nest gold"></div>
+								<ol type="A">
+									<li class="option"><input type="radio" name="option" value="1" /> <span id="opt1"></span></li>
+									<li class="option"><input type="radio" name="option" value="2" /> <span id="opt2"></span></li>
+									<li class="option"><input type="radio" name="option" value="3" /> <span id="opt3"></span></li>
+									<li class="option"><input type="radio" name="option" value="4" /> <span id="opt4"></span></li>
+								</ol>
+								<br>
+								<br>
+								<br>
+								<div class="columns">
+									<div class="column is-6"><div class="buttons level-left">
+										<button id="pevButton" class="button is-info" onclick="previousQuestion();" style="display: none;">Sebelumnya</button>
+									</div></div>
+									<div class="column is-6"><div class="buttons level-right">
+										<button id="nextButton" class="button is-info" onclick="loadNextQuestion();">Selanjutnya</button>
+									</div></div>
+								</div>
+							</div>
+							<div id="hasil" class="container hasil judul" style="display:none;"></div>
+							<br>
+							<br>
+							<br>
+							<div class="buttons">
+								<button id="resButton" class="button is-success" onclick="resume();" style="display:none;" >Mulai Lagi</button>	
+							</div>
+							</div>
+						</div>
+					</div>			
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="footer">
+		<div class="container">
+			<div class="column is-half is-offset-one-quarter has-text-centered is-capitalized">
+				<img src="img/icon-footer.png">
+				<br>
+				<br>
+				<br>
+				<br>
+				<p>Copyright <strong class="gold">2020</strong><br>dibuat dengan <strong class="gold">bulma</strong><br>Special persent <strong class="gold">pak sapto</strong><br>anggerian <strong class="gold">wijaya</strong></p>
+			</div>
+		</div>
+	</section>
+<script type="text/javascript" src="js/bulma.js"></script>
+<script src="js/question.js"></script>
+<script src="js/quiz-script.js"></script>
+</body>
+</html>

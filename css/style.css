@@ -1,0 +1,79 @@
+body{
+  background-color: #161616;
+  color: #999999 !important; 
+  font-family: 'Lato', sans-serif !important;
+}
+.whitetext{
+	color: #fafafa !important;
+}
+.gold{
+	color: #c0a062 !important;
+}
+.brand {
+  color: #fafafa !important;
+  font-size: 1.2rem;
+}
+.nav{
+	color: #fafafa !important;
+}
+.nav:hover{
+	background: none !important;
+	border-bottom: 2px solid #c0a062;
+}
+.display{
+	color: #c0a062 !important;
+	font-size: 6rem;
+	font-family: 'Yeseva One', cursive;
+}
+.sosmed-nest {
+	font-size: 1.8rem;
+}
+.sosmed {
+	color: #999999;
+}
+p{
+	font-size: 18px;
+}
+.gold-hr{
+	border: 0.5px solid #c0a062;
+}
+.silver-hr{
+	border: 0.5px solid #999999;
+}
+.judul{
+	font-size: 4rem;
+	font-family: 'Yeseva One', cursive;
+	color: #fafafa !important;
+}
+.tabs ul ,.tabs li a{
+	border-style: none !important;
+}
+.tabs-content li {
+    display: none;
+    list-style: none;
+}
+
+.tabs-content li.is-active {
+    display: block;
+}
+.fontab{
+	color: #999999 !important;
+}
+.fontab:hover{
+	color: #c0a062 !important;
+}
+.footer{
+	background-color: #161616 !important;
+}
+.footer p{
+	font-size: 0.9rem;
+}
+img{
+	height: 100%;
+}
+.ask{
+	font-size: 1.2rem;
+}
+.is-info{
+	background-color: #c0a062 !important;
+}
